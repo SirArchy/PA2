@@ -56,7 +56,7 @@ file_system* fs_load(const char* fs_file_path){
 
 	fclose(fs_file);
 	return new_fs;
-}
+} 
 
 file_system* fs_create(const char* fs_file_path, uint32_t size){
 	file_system* new_fs = malloc(sizeof(file_system));
