@@ -13,6 +13,7 @@ class Test_Mkdir:
     def test_mkdir_easy(self):
         fs = setup(5)
         retval = libc.fs_mkdir(ctypes.byref(fs), ctypes.c_char_p(bytes("/testDirectory","UTF-8")))
+        print(retval, fs.inodes[1].name ,fs.inodes[1].name.decode("utf-8"),fs.inodes[1].n_type, fs.inodes[0].direct_blocks[0], fs.inodes[1].parent)
         assert retval == 0
         assert fs.inodes[1].name.decode("utf-8") =="testDirectory","UTF-8" 
         assert fs.inodes[1].n_type == 2 # meaning it is marked as directory

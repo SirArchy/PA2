@@ -1,0 +1,59 @@
+.
+├── build
+│   ├── filesystem.o
+│   ├── ha2.o
+│   ├── linenoise.o
+│   ├── operations.o
+│   └── utils.o
+├── fsstruct.txt
+├── lib
+│   ├── filesystem.h
+│   ├── linenoise.h
+│   ├── operations.h
+│   └── utils.h
+├── Makefile
+├── mypyfiles.fs
+├── src
+│   ├── filesystem.c
+│   ├── ha2.c
+│   ├── linenoise.c
+│   ├── operations.c
+│   └── utils.c
+├── SysProgFiles.fs
+├── temp_test_file
+└── tests
+    ├── __pycache__
+    │   ├── test_complex.cpython-310-pytest-7.4.0.pyc
+    │   ├── test_complex.cpython-311-pytest-7.3.1.pyc
+    │   ├── test_expo.cpython-311-pytest-7.3.1.pyc
+    │   ├── test_export.cpython-311-pytest-7.3.1.pyc
+    │   ├── test_fs.cpython-311-pytest-7.3.1.pyc
+    │   ├── test_imp.cpython-311-pytest-7.3.1.pyc
+    │   ├── test_import.cpython-310-pytest-7.4.0.pyc
+    │   ├── test_import.cpython-311-pytest-7.3.1.pyc
+    │   ├── test_list.cpython-310-pytest-7.4.0.pyc
+    │   ├── test_list.cpython-311-pytest-7.3.1.pyc
+    │   ├── test_mkdir.cpython-310-pytest-7.4.0.pyc
+    │   ├── test_mkdir.cpython-311-pytest-7.3.1.pyc
+    │   ├── test_mkfil.cpython-311-pytest-7.3.1.pyc
+    │   ├── test_mkfile.cpython-310-pytest-7.4.0.pyc
+    │   ├── test_mkfile.cpython-311-pytest-7.3.1.pyc
+    │   ├── test_readf.cpython-310-pytest-7.4.0.pyc
+    │   ├── test_readf.cpython-311-pytest-7.3.1.pyc
+    │   ├── test_rem.cpython-310-pytest-7.4.0.pyc
+    │   ├── test_rem.cpython-311-pytest-7.3.1.pyc
+    │   ├── test_writef.cpython-310-pytest-7.4.0.pyc
+    │   ├── test_writef.cpython-311-pytest-7.3.1.pyc
+    │   ├── wrappers.cpython-310.pyc
+    │   └── wrappers.cpython-311.pyc
+    ├── test_complex.py
+    ├── test_import.py
+    ├── test_list.py
+    ├── test_mkdir.py
+    ├── test_mkfile.py
+    ├── test_readf.py
+    ├── test_rem.py
+    ├── test_writef.py
+    └── wrappers.py
+
+5 directories, 51 files
